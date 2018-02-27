@@ -30,11 +30,11 @@ According to spec only null == undefined or vise-versa
 
 Coercion: No coercion happens
 
-Result: false
+Result: `false`
 
 ---
 
-`"0" == undefined;`
+#### `"0" == undefined;`
 
 Observe: String and null is being compared
 
@@ -42,11 +42,11 @@ According to spec only null == undefined or vise-versa
 
 Coercion: No coercion happens
 
-Result: false
+Result: `false`
 
 ---
 
-`"0" == false;`
+#### `"0" == false;`
 
 Observe: String and Boolean is being compared
 
@@ -62,17 +62,17 @@ Read: `0 == 0`
 
 Observe: Type matched - value matched 
 
-Result: true
+Result: `true`
 
 ---
 
-`"0" == NaN;`
+#### `"0" == NaN;`
 
 Observe: String and Number is being compared. Or more appropriately, NaN is never equal to itself or any other value
 
 Coercion: String `"0"` is coerced to Number resulting `0`
 
-Read: 0 == NaN
+Read: `0 == NaN`
 
 Observe: Type matched or more appropriately, NaN is never equal to itself or any other value
 
@@ -80,21 +80,21 @@ Result: `false`
 
 ---
 
-`"0" == 0;`
+#### `"0" == 0;`
 
 Observe: String and Number is being compared
 
 Coercion: String `"0"` is coerced to Number resulting `0`
 
-Read: 0 == 0 
+Read: `0 == 0`
 
 Observe: Type matched - value matched
 
-Result: true
+Result: `true`
 
 ---
 
-`"0" == "";`
+#### `"0" == "";`
 
 Observe: Two Strings are being compared
 
@@ -106,7 +106,7 @@ Result: `false`
 
 ---
 
-`false == null;`
+#### `false == null;`
 
 Observe: Boolean and null is being compared
 
@@ -118,7 +118,7 @@ Result: `false`
 
 ---
 
-`false == undefined;`
+#### `false == undefined;`
 
 Observe: Boolean and undefined is being compared
 
@@ -130,7 +130,7 @@ Result: `false`
 
 ---
 
-`false == NaN;`
+#### `false == NaN;`
 
 Observe: Boolean and Number is being compared. Or more appropriately, NaN is never equal to itself or any other value
 
@@ -144,7 +144,7 @@ Result: `false`
 
 ---
 
-`false == 0;`
+#### `false == 0;`
 
 Observe: Boolean and Number is being compared
 
@@ -158,7 +158,7 @@ Result: `true`
 
 ---
 
-`false == "";`
+#### `false == "";`
 
 Observe: Boolean and String is being compared
 
@@ -178,7 +178,7 @@ Result: `true`
 
 ---
 
-`false == [];`
+#### `false == [];`
 
 Observe: Boolean and Array (Object) is being compared
 
@@ -200,7 +200,7 @@ Result: `true`
 
 ---
 
-`false == {};`
+#### `false == {};`
 
 Observe: Boolean and Object is being compared
 
@@ -222,7 +222,7 @@ Result: `false`
 
 ---
 
-`"" == null;`
+#### `"" == null;`
 
 Observe: String and null is being compared
 
@@ -234,7 +234,7 @@ Result: `false`
 
 ---
 
-`"" == undefined;`
+#### `"" == undefined;`
 
 Observe: String and undefined is being compared
 
@@ -246,7 +246,7 @@ Result: `false`
 
 ---
 
-`"" == NaN;`
+#### `"" == NaN;`
 
 Observe: String and Number is being compared. Or more appropriately, `NaN` is never equal to itself or any other value
 
@@ -260,7 +260,7 @@ Result: `false`
 
 ---
 
-`"" == 0;`
+#### `"" == 0;`
 
 Observe: String and Number is being compared
 
@@ -274,7 +274,7 @@ Result: `true`
 
 ---
 
-`"" == [];`
+#### `"" == [];`
 
 Observe: String and Array (Object) is being compared
 
@@ -288,7 +288,7 @@ Result: `true`
 
 ---
 
-`"" == {};`
+#### `"" == {};`
 
 Observe: String and Object is being compared
 
@@ -302,7 +302,7 @@ Result: `false`
 
 ---
 
-`0 == null;`
+#### `0 == null;`
 
 Observe: Number and null is being compared
 
@@ -314,7 +314,7 @@ Result: `false`
 
 ---
 
-`0 == undefined;`
+#### `0 == undefined;`
 
 Observe: Number and undefined is being compared
 
@@ -326,7 +326,7 @@ Result: `false`
 
 ---
 
-`0 == NaN;`
+#### `0 == NaN;`
 
 Observe: Type matched or more appropriately, `NaN` is never equal to itself or any other value
 
@@ -334,7 +334,7 @@ Result: `false`
 
 ---
 
-`0 == [];`
+#### `0 == [];`
 
 Observe: Number and Array (Object) is being compared
 
@@ -354,7 +354,7 @@ Result: `true`
 
 ---
 
-`0 == {};`
+#### `0 == {};`
 
 Observe: Number and Object is being compared
 
