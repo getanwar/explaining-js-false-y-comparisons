@@ -374,5 +374,7 @@ Result: `false`
 
 ---
 
+Note: Underlying JavaScript engine may or may not follow exactly the same steps. I wanted to describe it as easy as hell.
+
 ### Credit
 [YDKJS](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md#false-y-comparisons)
