@@ -26,7 +26,7 @@ Note: In `==` comparison, coerce will happen until both become same type.
 
 Observe: String and null is being compared
 
-According to spec only null == undefined or vise-versa
+According to spec only null = undefined or vise-versa
 
 Coercion: No coercion happens
 
@@ -36,9 +36,9 @@ Result: `false`
 
 #### `"0" == undefined;`
 
-Observe: String and null is being compared
+Observe: String and undefined is being compared
 
-According to spec only null == undefined or vise-versa
+According to spec only null = undefined or vise-versa
 
 Coercion: No coercion happens
 
